@@ -10,6 +10,6 @@ EXPOSE 8080
 
 #CMD [ "bash" "/apps/statup.sh" ]
 
-#CMD [ "node" "/apps/save.js" ]
+CMD [ "node", "/apps/save.js" ]
 
-ENTRYPOINT [ "node" , "/apps/save.js" ]
+#ENTRYPOINT [ "node" , "/apps/save.js" ]
